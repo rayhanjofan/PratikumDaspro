@@ -6,12 +6,15 @@ public class ifnestedUjianSkripsi24 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String pesan;
+
         System.out.println("Apakah mahasiswa sudah bebas kompen (Ya/Tidak): ");
         String bebasKompen = sc.nextLine().trim();
+
         System.out.println("Masukan jumlah log bimbingan Pembimbing 1: ");
         int bimbinganP1 = sc.nextInt();
         System.out.println("Masukan jumlah log bimbingan Pembimbing 2: ");
         int bimbinganP2 = sc.nextInt();
+        
         if (bebasKompen.equalsIgnoreCase("Ya")){
             if (bimbinganP1 >= 8 && bimbinganP2 >= 4){
                 pesan = "Semua syarat terpenuhi. Mahasiswa boleh mendaftar ujian skripsi";
