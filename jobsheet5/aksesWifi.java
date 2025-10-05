@@ -3,7 +3,7 @@ package jobsheet5;
 import java.util.Scanner;
 
 
-public class tugas3 {
+public class aksesWifi{
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
 
