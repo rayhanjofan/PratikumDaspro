@@ -2,6 +2,7 @@ package jobsheet5;
 
 import java.util.Scanner;
 
+
 public class tugas3 {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
@@ -11,7 +12,7 @@ public class tugas3 {
 
         System.out.println("Masukkan jenis pengguna (Mahasiswa/Dosen): ");
         jenisPengguna = sc.nextLine();
-        
+
         if (jenisPengguna.equalsIgnoreCase("Dosen")){
            System.out.println("Akses wifi diberikan (dosen)");
         } else if (jenisPengguna.equalsIgnoreCase("Mahasiswa")) {
