@@ -7,10 +7,10 @@ public class SiakadWhile24 {
         
         int nilai, jml, i = 0;
 
-        System.out.println("Masukan Jumlah Mahasiswa: ");
+        System.out.print("Masukan Jumlah Mahasiswa: ");
         jml = sc.nextInt();
         while (i < jml) {
-            System.out.println("Masukan Nilai Mahasiswa ke-" + (i + 1) + ": ");
+            System.out.print("Masukan Nilai Mahasiswa ke-" + (i + 1) + ": ");
             nilai = sc.nextInt();
 
             if (nilai < 0 || nilai > 100) {
@@ -31,9 +31,6 @@ public class SiakadWhile24 {
                 System.out.println("Nilai Mahasiswa ke-" + (i + 1) + " : D");
             } else {
                 System.out.println("Nilai Mahasiswa ke-" + (i + 1) + " : E");
-            }
-            if (nilai > 80 && nilai <= 100) {
-                System.out.println("Bagus, pertahankan nilainya!");
             }
             i++;
         }
