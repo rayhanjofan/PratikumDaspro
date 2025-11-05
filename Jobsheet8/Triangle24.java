@@ -4,7 +4,7 @@ public class Triangle24 {
     public static void main(String[] args) {
         
         java.util.Scanner scanner = new java.util.Scanner(System.in);
-        
+
         System.out.print("Masukan nilai n = ");
         int n = scanner.nextInt();
         int i = 0;
@@ -14,6 +14,7 @@ public class Triangle24 {
                 System.out.print("*");
                 j++;
             }
+            System.out.println();
             i++;
         }
     }
