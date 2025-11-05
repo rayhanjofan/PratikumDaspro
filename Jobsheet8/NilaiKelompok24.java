@@ -3,6 +3,7 @@ package Jobsheet8;
 public class NilaiKelompok24 {
     public static void main(String[] args) {
        java.util.Scanner scanner = new java.util.Scanner(System.in);
+       
        int nilai, j, i;
        int kelompokTertinggi = 0;
        float rataTertinggi = 0;
