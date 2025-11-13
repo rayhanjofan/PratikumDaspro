@@ -33,6 +33,5 @@ public class SearchNilai24 {
         } else {
             System.out.println("Nilai mahasiswa yang dicari tidak ditemukan!");
         }
-        sc.close(); 
     }
 }
