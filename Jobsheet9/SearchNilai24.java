@@ -27,7 +27,6 @@ public class SearchNilai24 {
                 break;
             }
         }
-
         System.out.println();
         if (posisi != -1) {
             System.out.println("Nilai " +key +" ketemu pada mahasiswa ke-" + (posisi + 1));
