@@ -21,5 +21,6 @@ public class Bioskop24 {
         System.out.printf("%s \t %s\n", penonton[2][0], penonton[2][1]);
         System.out.printf("%s \t %s\n", penonton[3][0], penonton[3][1]);
 
+        
     }
 }
