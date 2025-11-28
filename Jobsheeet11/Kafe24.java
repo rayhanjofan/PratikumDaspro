@@ -3,11 +3,17 @@ package Jobsheeet11;
 import java.util.Scanner;
 
 public class Kafe24 {
-    static void Menu(String namaPelanggan, boolean isMember) {
-        System.out.println("Selamat datang, " + namaPelanggan + "!");
+    static void Menu(String namaPelanggan, boolean isMember, String kodePromo) {
 
-        if (isMember) {
-            System.out.println("Anda adalah member, dapatkan diskon 10% untuk setiap pembelian!");
+        System.out.println("Selamat datang, " + namaPelanggan + "!");
+        System.out.println("Status member: " + (isMember ? "Ya" : "Tidak"));
+
+        if (kodePromo.equals("DISKON50")) {
+            System.out.println("Kode promo: DISKON50 (Diskon 50%)");
+        } else if (kodePromo.equals("DISKON30")) {
+            System.out.println("Kode promo: DISKON30 (Diskon 30%)");
+        } else {
+            System.out.println("Kode promo tidak valid");
         }
 
         System.out.println("===== MENU RESTO KAFE =====");
@@ -22,7 +28,7 @@ public class Kafe24 {
     }
 
     public static void main(String[] args) {
-        Menu("Andi", true);
+        Menu("Andi", true, "DISKON30");
     }
 }
 
