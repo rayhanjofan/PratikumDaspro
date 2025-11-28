@@ -4,12 +4,15 @@ import java.util.Scanner;
 
 public class Kafe24 {
     public static void Menu() {
-        System.out.println("=== DAFTAR MENU KAFE ===");
-        System.out.println("1. Nasi Goreng - 15000");
-        System.out.println("2. Mie Ayam    - 12000");
-        System.out.println("3. Es Teh      -  5000");
-        System.out.println("4. Kopi        - 10000");
+        System.out.println("===== MENU RESTO KAFE =====");
+        System.out.println("1. Kopi Hitam - 15,000");
+        System.out.println("2. Cappuccino - 20,000");
+        System.out.println("3. Latte      - 22,000");
+        System.out.println("4. Teh Tarik  - 12,000");
+        System.out.println("5. Roti Bakar - 10,000");
+        System.out.println("6. Mie Goreng - 18,000");
         System.out.println("========================");
+        System.out.println("Silahkan pilih menu yang anda inginkan.");
     }
     public static void main(String[] args) {
         Menu();
