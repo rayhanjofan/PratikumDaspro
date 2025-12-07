@@ -25,7 +25,6 @@ public class NilaiMahasiswa24 {
         }
         return total;
     }
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
